@@ -17,8 +17,11 @@
 
 ## Description (about 100 words)
 
-> Our app will allow for individuals to find experienced trail hikers to find adventures on local trails.
-
+> Our app will allow for individuals interested in hiking to find likeminded individuals for adventures on local trails.
+Our motivation behind this application is to get people outdoors and meeting new people! Our goals include 
+allowing users to make connections to other users, allow users to find experienced people of particular trails to increase confidence
+incase of uneasiness in their ability to hike a more difficult trail, and to increase the amount of people utilizing public trails 
+and spreading awareness of NC wildlife 
 
 
 > A brief description of what your app will be like and why it's
