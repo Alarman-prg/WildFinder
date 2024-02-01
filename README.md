@@ -23,3 +23,5 @@ allowing users to make connections to other users, allow users to find experienc
 incase of uneasiness in their ability to hike a more difficult trail, and to increase the amount of people utilizing public trails 
 and spreading awareness of NC wildlife. Some features of our app will include a map of local trails to the piedmont area, a chatroom based off intrest
 in a particular trail/park, and possibly wildlife information.
+
+![WildFinder Use Case Graph](https://github.com/Alarman-prg/WildFinder/blob/main/WildFinder%20Use%20Case%20Chart.png)
