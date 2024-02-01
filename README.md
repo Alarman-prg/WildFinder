@@ -1,4 +1,4 @@
-## WlidFinder
+## WildFinder
 
 > Web app for finding groups for local trail hiking.
 
