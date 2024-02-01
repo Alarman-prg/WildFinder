@@ -12,7 +12,7 @@
 
 ## Nickname
 
-> WFP - WildFire Project
+> WFP - WildFinder Project
 
 
 ## Description (about 100 words)
