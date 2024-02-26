@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WildFinder : Login</title>
 
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 
 <body>
@@ -14,9 +14,9 @@
     <div class="main-container">
         <div class="navbar">
             <ul>
-                <li><span>WildFinder</span></li>
-                <li><a href="aboutus.html">About Us</a></aAbout>
-                </li>
+                <li><a href="index.html">Wildfinder</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="adminlogin.html">Admin Login</a></li>
             </ul>
         </div>
 
@@ -27,18 +27,13 @@
                 <h1>Login</h1>
                 <div class="input-box">
                     <input type="text" placeholder="Username" required>
-                </div>
-                <div class="input-box">
                     <input type="password" placeholder="Password" required>
                 </div>
-                <div class="rememeber-forgot">
-                    <label><input type="checkbox">Remember Me</label>
-                    <!-- Forgot password uses placeholder #, nomrally the link or jScript would go there -->
-                    <a href="#">Forgot Password?</a>
-                </div>
-                <!-- login button -->
                 <button type="submit" class="btn">Login</button>
-                <div class="register-link">Dont have an account <a href="register.html">Register</a></div>
+                <div class="register-link">Dont have an account? <a href="register.html">Register now</a></div>
+
+                <!-- Forgot password uses placeholder #, nomrally the link or jScript would go there -->
+                <a class="forgot" href="#">Forgot Password?</a>
             </form>
         </div>
     </div>

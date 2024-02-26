@@ -4,24 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WildFinder : Admin Login</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+
 </head>
 
 <body>
+    <!-- navbar -->
     <div class="main-container">
-        <div class="nav-bar">
-            <a href="adminlogin.html" id="nav-logo">
-                <h1>Admin Page</h1>
-            </a>
-            
-            <a href="login.html">
-                <p>Back to login</p>
-            </a>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Wildfinder</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
         </div>
 
-        
+
+        <!-- Login -->
+        <div class="login-wrapper">
+            <form action="adminpage.html">
+                <h1>Admin Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Admin Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Admin Password" required>
+                </div>
+                <!-- login button -->
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
     </div>
 </body>
 
