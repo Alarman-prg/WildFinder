@@ -1,16 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poopins", sans-seriff;
-}
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: white;
+    font-family: "Poopins", sans-seriff;
+    min-height: 100em;
+    background: whitesmoke;
 }
 
 .wrapper {
@@ -21,10 +12,7 @@ body {
 
 /* navbar style*/ 
 .navbar {
-    position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
 }
 
 .navbar ul {
@@ -59,3 +47,44 @@ body {
     display: inline-block;
     color: black;
 }
+
+.login-wrapper {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+/* Admin Page CSS*/
+body {
+    height: 100em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-flow: column wrap;
+}
+
+.nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    background: lightgray;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: underline;
+}
+
+#nav-logo{
+    flex: 1;
+}
+
+
+
