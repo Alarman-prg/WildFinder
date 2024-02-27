@@ -16,14 +16,36 @@ header {
 #main-section {
     display: flex;
     flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
-    width: 200px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 255px;
     background-color: #555;
-    padding: 20px;
+
+    margin:0;
+    padding:0;
+
     height: 100vh;
     overflow-y: auto;
+}
+
+li {
+    
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
 }
 
 main {
