@@ -142,11 +142,14 @@ body {
 }
 
 .trail-list {
-    padding: 10px;
     display: flex;
     flex-flow: column nowrap;
     width: 50%;
 
+}
+
+.guilded-trail {
+    padding: 10px;
 }
 
 .dropbtn {
