@@ -180,4 +180,24 @@ html, body {
   .dropdown-content .park-info {
       text-align: left;
   }
-  
+
+  .Address {
+    padding: 5px;
+  }
+
+  .hawriver {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* stars css */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+  .stars i {
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  .stars i.active {
+    color: #ff9c1a;
+  }
