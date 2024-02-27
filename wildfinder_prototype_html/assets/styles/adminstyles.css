@@ -21,34 +21,38 @@ header {
 }
 
 nav {
-    
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
     width: 255px;
     background-color: #555;
-
-    margin:0;
-    padding:0;
-
     height: 100vh;
     overflow-y: auto;
 }
 
 li {
-    
     padding-top: 20px;
-    margin: 0;
-    padding: 0;
 }
 
-li a {
+nav li a {
     color: white;
     text-decoration: none;
 }
 
-main {
+#body {
     flex: 1;
     padding: 20px;
+}
+
+main {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#validate-parkops {
+
 }
