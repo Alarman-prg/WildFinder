@@ -8,7 +8,6 @@
 
 body {
     font-family: "Poopins", sans-seriff;
-    min-height: 100em;
     background: #F3EEEF;
     margin: 0px;
     padding: 0px;
@@ -86,14 +85,21 @@ form {
     align-items: center;
 }
 
+form button {
+    margin: 5px;
+}
+
 .input-box {
     display: flex;
     flex-flow: column wrap;
-    padding: 5px;
 }
 
 .input-box input {
-    margin: 4px;
+    margin: 5px;
+}
+
+.operator-link {
+    padding-top: 5px;
 }
 
 .main-container {
@@ -102,6 +108,8 @@ form {
     margin: 0px;
     flex-flow: column wrap;
 }
+
+
 /* the map */
 html, body {
     height: 100%;
