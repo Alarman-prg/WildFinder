@@ -1,0 +1,104 @@
+/*
+#F3EEEF     white
+#D9C988     beige
+#EE6963     red
+#F1B420     yellow
+#4F6F4C     green
+*/
+
+body {
+    font-family: "Poopins", sans-seriff;
+    min-height: 100em;
+    background: #F3EEEF;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home {
+    background-image: url('../images/background.jpg'); /* https://unsplash.com/photos/landmark-photography-of-trees-near-rocky-mountain-under-blue-skies-daytime-ndN00KmbJ1c */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.welcome-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.welcome-container h1 {
+    font-size: 60px;
+}
+
+.welcome-container a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.cont {
+    display: flex;
+    justify-content: right;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #4F6F4C;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #EE6963;
+}
+
+.navbar li {
+    float: left;
+}
+
+.login-wrapper {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px;
+}
+
+.input-box input {
+    margin: 4px;
+}
+
+.main-container {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-flow: column wrap;
+}
