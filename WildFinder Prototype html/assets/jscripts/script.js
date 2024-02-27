@@ -5,6 +5,13 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
+var guilford = L.polygon([
+  [36.257281, -80.035469]
+  [36.241326, -79.532397] 
+  [35.899711, -79.542241] 
+  [35.920735, -80.046613]
+]).addTo(map);
+
 // Select all elements with the "i" tag and store them in a NodeList called "stars"
  const stars = document.querySelectorAll(".stars i");
 
