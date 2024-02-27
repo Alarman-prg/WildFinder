@@ -14,7 +14,8 @@ body {
 }
 
 #home {
-    background-image: url('../images/background.jpg'); /* https://unsplash.com/photos/landmark-photography-of-trees-near-rocky-mountain-under-blue-skies-daytime-ndN00KmbJ1c */
+    background-image: url('../images/background.jpg');
+    /* https://unsplash.com/photos/landmark-photography-of-trees-near-rocky-mountain-under-blue-skies-daytime-ndN00KmbJ1c */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,15 +121,22 @@ form button {
 
 
 /* the map */
-html, body {
+#map-body {
     height: 100%;
     margin: 0;
+    text-align: center;
 }
+
 .leaflet-container {
     height: 400px;
     width: 600px;
     max-width: 100%;
     max-height: 100%;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
 }
 
 /* Alamance  testing*/
@@ -140,64 +148,66 @@ html, body {
     border: none;
     width: 40%;
     align-content: center;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
     margin-bottom: 25px;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: fixed;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content p {
+}
+
+.dropdown-content p {
     color: black;
     padding: 5px 10px;
     text-decoration: none;
-    display: block; 
+    display: block;
     margin: 0;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-      background-color: #3e8e41;
-  }
-  
-  .dropdown-content .park-info {
-      text-align: left;
-  }
+}
 
-  .Address {
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.dropdown-content .park-info {
+    text-align: left;
+}
+
+.Address {
     padding: 5px;
-  }
+}
 
-  .hawriver {
+.hawriver {
     display: block;
     margin: 0 auto;
-  }
+}
 
-  /* stars css */
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-  .stars i {
+/* stars css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.stars i {
     color: grey;
     font-size: 20px;
     cursor: pointer;
     transition: color 0.2s ease;
-  }
-  .stars i.active {
+}
+
+.stars i.active {
     color: #ff9c1a;
-  }
+}
