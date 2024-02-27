@@ -132,6 +132,19 @@ html, body {
 }
 
 /* Alamance  testing*/
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.trail-list {
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    
+}
+
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -140,12 +153,13 @@ html, body {
     border: none;
     width: 40%;
     align-content: center;
+    
   }
   
   .dropdown {
     position: relative;
     display: inline-block;
-    margin-bottom: 25px;
+    margin: 10px;
   }
   
   .dropdown-content {
