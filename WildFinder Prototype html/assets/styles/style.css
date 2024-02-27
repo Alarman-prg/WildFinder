@@ -22,28 +22,37 @@ body {
 
 .welcome-container {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 10%;
+    left: 42%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #fff;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
 }
 
-.welcome-container h1 {
-    font-size: 60px;
+#main-header {
+    font-size: 70px;
+    background-color: white;
+}
+
+.welcome-container p {
+    background-color: white;
 }
 
 .welcome-container a {
-    color: white;
+    color: black;
+    background-color: white;
     text-decoration: none;
-    text-align: right;
+    font-size: 0px;
 }
 
-.cont {
-    display: flex;
-    justify-content: right;
-    flex-flow: row wrap;
-    align-items: baseline;
+
+.cont p {
+    font-size: 20px;
+    display: inline;
 }
 
 .navbar ul {
