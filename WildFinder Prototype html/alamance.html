@@ -6,6 +6,7 @@
     <title>Alamance County Trails</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="script.js" defer></script>
 </head>
 
 <style>
@@ -36,7 +37,7 @@
 
 .dropdown-content p {
   color: black;
-  padding: 100px 200px;
+  padding: 5px 10px;
   text-decoration: none;
   display: block; 
   margin: 0;
@@ -58,6 +59,16 @@
     text-align: left;
 }
 
+.stars i {
+  color: grey;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars i.active {
+  color: #ff9c1a;
+}
+
 </style>
 
 <body>
@@ -75,7 +86,10 @@
             <div class="dropdown">
                 <button class="dropbtn">Hall River Trail</button>
                 <div class="dropdown-content">
-                  <p class="park-info">alot of cool and exciting information</p>
+                  <p class="park-info">
+                    Alot of cool and exciting information. this place be pretty color<br>
+                    i'd checkout out if i was you but you do you boo
+                  </p>
                   <div class="stars">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
